@@ -24,7 +24,7 @@ The function `handler(event, context)` is the main entry point and handles the L
 
 ## Usage
 
-1. **Configurations**: Modify the following parameters in the code or add them as environment variables in the function:
+1. **Configurations**: Modify the following parameters in the code or add them as environment variables in the function if using HWC FGS:
 
    - `projectId`: Your Huawei Cloud/OpenStack region project ID.
    - `region`: The Huawei Cloud/OpenStack region where your instances are located.
