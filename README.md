@@ -14,7 +14,7 @@ This is a Python function designed to start or stop instances in a Huawei Cloud/
 
 1. **Huawei Cloud/Openstack Credentials**: You need valid Huawei Cloud/OpenStack credentials including Project ID, Domain, Region, Access Key (AK), and Secret Key (SK).
 
-2. **For Huawei Cloud**: Creation of a cloud service agency with ECS full access permission and cloud service "FunctionGraph".
+2. **For Huawei Cloud**: Creation of a cloud service agency with ECS full access permission and cloud service "FunctionGraph". 
 
 3. **Dependencies**: The function uses the `openstacksdk` library for interacting with Huawei Cloud/OpenStack. Make sure to have it installed using `pip install openstacksdk`, or add it to your HWC FGS Function dependencies.
 
@@ -24,7 +24,9 @@ The function `handler(event, context)` is the main entry point and handles the L
 
 ## Usage
 
-1. **Configurations**: Modify the following parameters in the code or add them as environment variables in the function if using HWC FGS:
+1. **Runtime**: Python 2.7
+
+2. **Variables**: Modify the following parameters in the code or add them as environment variables in the function if using HWC FGS:
 
    - `projectId`: Your Huawei Cloud/OpenStack region project ID.
    - `region`: The Huawei Cloud/OpenStack region where your instances are located.
