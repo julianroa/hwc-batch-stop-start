@@ -1,5 +1,7 @@
 # OpenStack ECS Start/Stop Function
 
+This is a Python function designed to start or stop instances in a Huawei Cloud/OpenStack environment. It utilizes the OpenStack SDK to connect to your Huawei Cloud/OpenStack infrastructure and initiate the start/stop operation for selected servers. The function can be used within a serverless environment like HWC FGS (FunctionGraph Service).
+
 ## IMPORTANT NOTES
 
 - This function doesn't include proper error handling for the Lambda environment. Make sure to implement proper error handling mechanisms for production use.
@@ -7,8 +9,6 @@
 - The function is provided as a starting point and can be extended to suit your specific use case and error handling requirements.
 
 - Due to potential security risks, avoid using `ssl._create_unverified_context` in production environments. Properly configure SSL certificate validation.
-
-This is a Python function designed to start or stop instances in a Huawei Cloud/OpenStack environment. It utilizes the OpenStack SDK to connect to your Huawei Cloud/OpenStack infrastructure and initiate the start/stop operation for selected servers. The function can be used within a serverless environment like HWC FGS (FunctionGraph Service).
 
 ## Prerequisites
 
