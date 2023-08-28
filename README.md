@@ -1,6 +1,6 @@
-# OpenStack ECS Start/Stop Function
+# Huawei Cloud OpenStack ECS Start/Stop Function
 
-This is a Python function designed to start or stop instances in a Huawei Cloud/OpenStack environment. It utilizes the OpenStack SDK to connect to your Huawei Cloud/OpenStack infrastructure and initiate the start/stop operation for selected servers. The function can be used within a serverless environment like HWC FGS (FunctionGraph Service).
+This is a Python function designed to start or stop instances in a Huawei Cloud environment. It utilizes the OpenStack SDK to connect to your Huawei Cloud infrastructure and initiate the start/stop operation for selected servers. The function can be used within a serverless environment like HWC FGS (FunctionGraph Service).
 
 ## IMPORTANT NOTES
 
@@ -16,7 +16,7 @@ This is a Python function designed to start or stop instances in a Huawei Cloud/
 
 2. **For Huawei Cloud**: Creation of a cloud service agency with ECS full access permission and cloud service "FunctionGraph". 
 
-3. **Dependencies**: The function uses the `openstacksdk` library for interacting with Huawei Cloud/OpenStack. Make sure to have it installed using `pip install openstacksdk`, or add it to your HWC FGS Function dependencies.
+3. **Dependencies**: The function uses the `openstacksdk` library for interacting with Huawei Cloud. Make sure to have it installed using `pip install openstacksdk`, or add it to your HWC FGS Function dependencies.
 
 ## Function Overview
 
