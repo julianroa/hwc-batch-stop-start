@@ -29,7 +29,7 @@ The function `handler(event, context)` is the main entry point and handles the L
 2. **Variables**: Modify the following parameters in the code or add them as environment variables in the function if using HWC FGS:
 
    - `projectId`: Your Huawei Cloud/OpenStack region project ID.
-   - `region`: The Huawei Cloud/OpenStack region where your instances are located.
+   - `region`: The Huawei Cloud/OpenStack region where your instances are located (e.g., la-south-2).
    - `domain`: Huawei Cloud/OpenStack Domain (default value: 'myhuaweicloud.com').
    - `ak` and `sk`: Your Access Key (AK) and Secret Key (SK).
    - `whiteLists`: A comma-separated list of instance names to exclude from starting/stopping.
