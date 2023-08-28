@@ -12,7 +12,7 @@ This is a Python function designed to start or stop instances in a Huawei Cloud 
 
 ## Prerequisites
 
-1. **Huawei Cloud/Openstack Credentials**: You need valid Huawei Cloud/OpenStack credentials including Project ID, Domain, Region, Access Key (AK), and Secret Key (SK).
+1. **Huawei Cloud Credentials**: You need valid Huawei Cloud credentials including Project ID, Domain, Region, Access Key (AK), and Secret Key (SK).
 
 2. **For Huawei Cloud**: Creation of a cloud service agency with ECS full access permission and cloud service "FunctionGraph". 
 
@@ -28,9 +28,9 @@ The function `handler(event, context)` is the main entry point and handles the L
 
 2. **Variables**: Modify the following parameters in the code or add them as environment variables in the function if using HWC FGS:
 
-   - `projectId`: Your Huawei Cloud/OpenStack region project ID.
-   - `region`: The Huawei Cloud/OpenStack region where your instances are located (e.g., la-south-2).
-   - `domain`: Huawei Cloud/OpenStack Domain (default value: 'myhuaweicloud.com').
+   - `projectId`: Your Huawei Cloud region project ID.
+   - `region`: The Huawei Cloud region where your instances are located (e.g., la-south-2).
+   - `domain`: Huawei Cloud Domain (default value: 'myhuaweicloud.com').
    - `ak` and `sk`: Your Access Key (AK) and Secret Key (SK).
    - `whiteLists`: A comma-separated list of instance names to exclude from starting/stopping.
 
