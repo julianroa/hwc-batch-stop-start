@@ -8,7 +8,6 @@ This is a Python function designed to start or stop instances in a Huawei Cloud 
 
 - The function is provided as a starting point and can be extended to suit your specific use case and error handling requirements.
 
-- Due to potential security risks, avoid using `ssl._create_unverified_context` in production environments. Properly configure SSL certificate validation.
 
 ## Prerequisites
 
