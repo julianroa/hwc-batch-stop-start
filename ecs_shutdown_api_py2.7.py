@@ -1,12 +1,9 @@
 # -*- coding:utf-8 -*-
 import json
-import ssl
 import time,sys
 from openstack import connection
 from threading import Thread
 
-# Disable SSL verification (not recommended for production use)
-ssl._create_default_https_context = ssl._create_unverified_context
 
 # Handler function for the AWS Lambda
 def handler(event, context):
