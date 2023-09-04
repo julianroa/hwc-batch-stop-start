@@ -30,7 +30,8 @@ The function `handler(event, context)` is the main entry point and handles the L
    - `projectId`: Your Huawei Cloud region project ID.
    - `region`: The Huawei Cloud region where your instances are located (e.g., la-south-2).
    - `domain`: Huawei Cloud Domain (default value: 'myhuaweicloud.com').
-   - `ak` and `sk`: Your Access Key (AK) and Secret Key (SK).
+   - `ak`: Your Access Key (AK).
+   - `sk`: Your Secret Key (SK).
    - `whiteLists` (optional): A comma-separated list of instance names to exclude from starting/stopping.
 
 2. **For Huawei Cloud FGS Service**: Set an agency with ECS full access permissions and increase the timeout value of the function.
